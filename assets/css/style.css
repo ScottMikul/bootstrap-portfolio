@@ -1,0 +1,56 @@
+a {
+  color: #777;
+}
+.navbar-brand{
+    
+  background: #29d1ce;
+}
+
+/* @media (max-width: 500px) {
+  .navbar {
+    padding: 0;
+  }
+  
+  .navbar-brand {
+    flex: 100%;
+    text-align: center;
+    background: #29d1ce;
+    margin: 0;
+  }
+  
+  .nav {
+    margin: 0 auto;
+  }
+} */
+
+
+html, body {
+height: 100%;
+width: 100%;
+margin: 0;
+padding: 0;
+background-image: url('../images/greek-vase.png');
+font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+color:#4AAAA5;
+}
+
+.box1{
+height:200px;
+width:200px;
+border: 1px, solid, black;
+}
+
+.portfolio-item{
+position: relative;
+text-align: center;
+}
+
+.portfolio-item-text{
+position: absolute;
+top:70%;
+width:100%;
+background-color:tan;
+padding-top: 10px;
+padding-bottom: 10px;
+color:#FFFFFF;
+}
