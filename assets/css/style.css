@@ -1,9 +1,17 @@
 a {
   color: #777;
 }
-.navbar-brand{
-    
+ .navbar-brand{
+  margin-top: -10px;
+  margin-left:-10px;
   background: #29d1ce;
+  color:#FFFFFF;
+} 
+.navbar{
+  background:#FFFFFF;
+}
+.make-bg-white{
+  background:#FFFFFF;
 }
 
 /* @media (max-width: 500px) {
@@ -53,4 +61,16 @@ background-color:tan;
 padding-top: 10px;
 padding-bottom: 10px;
 color:#FFFFFF;
+}
+
+.about-me-image{
+  float: left;
+  margin:5px 25px 10px 5px;
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.about-me-paragraph{
+  margin:5px;
 }

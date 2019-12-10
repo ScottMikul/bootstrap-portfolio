@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 
-        <!-- Extra small
+<!-- Extra small
         <576px	Small
         ≥576px	Medium
         ≥768px	Large
         ≥992px	Extra large
         ≥1200px
         Max container width	None (auto)	540px	720px	960px	1140px -->
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -18,25 +19,40 @@
 </head>
 
 <body>
+    <div class="make-bg-white">
+
+
+        <div class="container-md">
+            <nav class="navbar">
+                <a class="d-flex navbar-brand 
+                        justify-content-center justify-content-md-start 
+                        col-md-3 col-lg-2 col-12 
+                        p-md-4 pt-md-1 mt-md-n3 ml-md-n3 mb-md-n2
+                        " style="background:" href="index.html">Scotty Mikul</a>
+                <ul class="nav mx-auto mx-md-0 ">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
     <div class="container">
-        <nav class="navbar  navbar-light bg-light">
-            <a class="navbar-brand" href="#">Scotty Mikul</a>
-            <ul class=" d-flex justify-content-center nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-        </nav>
         <div class="row pl-3 pr-3 mt-4">
-            <div class="col-md-8 col-sm-12 main-content">
-                    <h5 class="mt-3 ">Contact</h5>
-                    <hr>
+            <div class="card col-lg-8 col-md-12 main-content">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col">
+                            <h5 class="mt-3 ">Contact</h5>
+                            <hr>
+                        </div>
+                    </div>
                     <form>
                         <div class="form-group">
                             <label for="exampleFormControlInput1">Name</label>
@@ -56,6 +72,7 @@
                         </div>
                         <button type="button" class="btn btn-primary">Submit</button>
                     </form>
+                </div>
             </div>
         </div>
 </body>
