@@ -21,16 +21,15 @@
 </head>
 
 <body>
-    <div class="make-bg-white">
-
-
-        <div class="container-md">
+    <!-- Big screen navbar -->
+    <div class="make-bg-white d-none d-md-block">
+        <div class="container-md ">
             <nav class="navbar">
                 <a class="d-flex navbar-brand 
                 justify-content-center justify-content-md-start 
                 col-md-3 col-lg-2 col-12 
                 p-md-4 pt-md-1 mt-md-n3 ml-md-n3 mb-md-n2
-                " style="background:" href="index.html">Scotty Mikul</a>
+                "  href="index.html">Scotty Mikul</a>
                 <ul class="nav mx-auto mx-md-0 ">
                     <li class="nav-item active">
                         <a class="nav-link" href="index.html">About</a>
@@ -45,6 +44,24 @@
             </nav>
         </div>
     </div>
+    <!-- small screen navbar -->
+    <nav class=" d-block d-md-none">
+        <a class = "d-block full-width-navbar-brand mx-auto" href="index.html">Scotty Mikul</a>
+        <ul class="nav full-width-navitems justify-content-center">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+
+    </nav>
+
+
     <div class="container">
 
 
@@ -56,7 +73,7 @@
                     <hr>
                 </div>
             </div> -->
-            <div class="card col-md-12 col-lg-8" ">
+            <div class="card col-md-12 col-lg-8 mb-3 ">
                 <div class="card-body">
                     <div class="row">
                         <div class="col">
@@ -91,7 +108,7 @@
                         <div class="col-md-6 col-sm-12 mt-2 mt-md-0">
                             <div class="portfolio-item">
                                 <img src="assets/images/galaga.png" alt="galaga" height="300px" width="100%">
-                                <div class="portfolio-item-text">Galagar</div>
+                                <div class="portfolio-item-text">Galaga</div>
                             </div>
                         </div>
                     </div>
@@ -117,7 +134,7 @@
                             <div class="portfolio-item">
                                 <img src="assets/images/solarpanel.jpg" alt="solarpanel class" height="300px"
                                     width="100%">
-                                <div class="portfolio-item-text">Godot Platformer Game</div>
+                                <div class="portfolio-item-text">Solar Panel Class</div>
                             </div>
                         </div>
                     </div>

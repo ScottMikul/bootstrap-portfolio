@@ -19,16 +19,15 @@
 </head>
 
 <body>
-    <div class="make-bg-white">
-
-
-        <div class="container-md">
+    <!-- Big screen navbar -->
+    <div class="make-bg-white d-none d-md-block">
+        <div class="container-md ">
             <nav class="navbar">
                 <a class="d-flex navbar-brand 
-                        justify-content-center justify-content-md-start 
-                        col-md-3 col-lg-2 col-12 
-                        p-md-4 pt-md-1 mt-md-n3 ml-md-n3 mb-md-n2
-                        " style="background:" href="index.html">Scotty Mikul</a>
+                justify-content-center justify-content-md-start 
+                col-md-3 col-lg-2 col-12 
+                p-md-4 pt-md-1 mt-md-n3 ml-md-n3 mb-md-n2
+                " href="index.html">Scotty Mikul</a>
                 <ul class="nav mx-auto mx-md-0 ">
                     <li class="nav-item active">
                         <a class="nav-link" href="index.html">About</a>
@@ -43,9 +42,26 @@
             </nav>
         </div>
     </div>
+    <!-- small screen navbar -->
+    <nav class=" d-block d-md-none">
+        <a class="d-block full-width-navbar-brand mx-auto" href="index.html">Scotty Mikul</a>
+        <ul class="nav full-width-navitems justify-content-center">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+
+    </nav>
+
     <div class="container">
         <div class="row pl-3 pr-3 mt-4">
-            <div class="card col-lg-8 col-md-12 main-content">
+            <div class="card col-lg-8 col-md-12 main-content mb-3">
                 <div class="card-body">
                     <div class="row">
                         <div class="col">

@@ -3,13 +3,33 @@ a {
 }
  .navbar-brand{
   margin-top: -10px;
-  margin-left:-10px;
   background: #29d1ce;
   color:#FFFFFF;
+}
+.full-width-navbar-brand{
+  text-align: center;
+  width:100%;
+  background: #29d1ce;
+  color:#FFFFFF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+.full-width-navitems{
+  width:100%;
+  margin: auto;
+  background:#FFFFFF;
 } 
 .navbar{
   background:#FFFFFF;
+
 }
+
+.main-nav {
+ width: 100%;
+ padding: 10px 0px;
+}
+
 .make-bg-white{
   background:#FFFFFF;
 }
