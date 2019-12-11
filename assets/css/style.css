@@ -3,14 +3,17 @@ a {
 }
  .navbar-brand{
   margin-top: -10px;
+  margin-left:-10px;
   background: #29d1ce;
   color:#FFFFFF;
+  text-decoration: none;
 }
 .full-width-navbar-brand{
   text-align: center;
   width:100%;
   background: #29d1ce;
   color:#FFFFFF;
+  text-decoration: none;
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 30px;
