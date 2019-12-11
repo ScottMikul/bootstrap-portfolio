@@ -94,6 +94,12 @@ color:#FFFFFF;
   border-width: 3px;
 }
 
+.about-me-image-full-width{
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+}
+
 .about-me-paragraph{
   margin:5px;
 }
